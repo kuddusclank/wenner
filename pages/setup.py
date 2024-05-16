@@ -28,7 +28,7 @@ SurveyName = st.text_input("Profile Name",placeholder="Traverse One")
 Longitude = st.number_input(label= "Longitude (Degree Decimal) ", placeholder="Degree Decimal",format="%.4f")
 Lattitude=st.number_input("Lattitude (Degree Decimal) ", placeholder="Degree Decimal",format="%.4f")
 Elevation=st.number_input("Elevation", placeholder="Metres",format="%.4f")
-Interval_Spacing=st.number_input("Spacing",placeholder="Metres",format="%.2f")
+Interval_Spacing=st.number_input("Spacing",placeholder="Metres",format="%.2f",min_value=1.0)
 if(st.button("Proceed",type='primary')):
     if isinstance(Interval_Spacing, float): 
         md.SurveyName=SurveyName
