@@ -30,7 +30,7 @@ st.markdown(
     ### Want  more tools?
     - Check out [GeoGenix HomePage](https://geogenix.000webhostapp.com/)
     ### How To Use
-    - Click On `Start A New Profile`
+    - Click On `New Survey Profile`
     - Fill In The Form With Accurate Data
     - Click On `Proceed` To Enter Form View 
     - In The Form View Electrode Configuration/Spacing/Position Will Be Shown
